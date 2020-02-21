@@ -29,9 +29,6 @@ function myFunction() {
   if (uppercaseEl.checked) {
     selection = selection + uppercase;
   }
-  if (lowercaseEl.checked) {
-    selection = selection;
-  }
   if (numericEl.checked) {
     selection = selection + number;
   }
