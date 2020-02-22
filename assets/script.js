@@ -24,7 +24,7 @@ function generatePassword() {
   var selection = lowercase;
 
   if (inputLength < 8 || inputLength > 128 || inputLength == "") {
-    alert("Please enter an number between 8 and 128");
+    alert("Please enter a number between 8 and 128");
   } else {
     if (uppercaseEl.checked) {
       selection = selection + uppercase;
